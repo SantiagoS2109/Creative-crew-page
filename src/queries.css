@@ -1,0 +1,141 @@
+/**********************/
+/* BELOW 1024px (Smaller Desktop) */
+/**********************/
+
+@media (width <= 64em) {
+  .header h1 {
+    font-size: 2.4rem;
+  }
+
+  .header--content h2 {
+    font-size: 1.4rem;
+  }
+
+  .header--content p {
+    font-size: 1.2rem;
+    width: 70%;
+  }
+
+  .main {
+    row-gap: 1.8rem;
+  }
+
+  .main img {
+    width: 16rem;
+  }
+
+  .card--lower {
+    margin-top: 10rem;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+  .card h2 {
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+/**********************/
+/* BELOW 768px (Tablet) */
+/**********************/
+
+@media (width <= 48em) {
+  .content {
+    margin: 6rem 8rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header--content h2 {
+    font-size: 1.2rem;
+  }
+
+  .header--content p {
+    font-size: 1rem;
+  }
+
+  .main {
+    margin-top: 6rem;
+  }
+
+  .main img {
+    width: 14rem;
+  }
+
+  .card h2 {
+    margin-top: 0.8rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}
+
+/**********************/
+/* BELOW 425px (Mobile L) */
+/**********************/
+
+@media (width <= 26.6em) {
+  .content {
+    margin: 6rem 2rem;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header--content h2 {
+    font-size: 1.6rem;
+  }
+
+  .header--content p {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    width: 70%;
+  }
+
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main img {
+    width: 12rem;
+  }
+
+  .card--lower {
+    margin-top: 0rem;
+  }
+
+  .card:nth-child(even) {
+    transform: translateY(4rem);
+  }
+
+  .card h2 {
+    margin-top: 0.4rem;
+    font-size: 1.4rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+
+/**********************/
+/* BELOW 375px (Mobile M) */
+/**********************/
+
+@media (width <= 23.5em) {
+  .main img {
+    width: 12rem;
+  }
+}
